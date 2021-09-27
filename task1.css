@@ -1,0 +1,63 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+#container {
+  height: 600px;
+  width: 1000px;
+  margin: 0 auto;
+  /* background-color: yellow; */
+  position: relative;
+  overflow: hidden;
+}
+
+#layerOne,
+#layerTwo,
+#layerThree,
+#layerFour,
+#layerFive,
+#layerSix,
+#layerZero {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  height: 100%;
+  width: 3000px;
+  background-repeat: no-repeat;
+  /* margin: 0 auto; */
+}
+
+#layerZero {
+  background-image: url(./day10_challenge/images/layer_0.png);
+}
+
+#layerOne {
+  background-image: url(./day10_challenge/images/layer_1.png);
+}
+
+#layerTwo {
+  background-image: url(./day10_challenge/images/layer_2.png);
+  z-index: 2;
+}
+
+#layerThree {
+  background-image: url(./day10_challenge/images/layer_3.png);
+  z-index: 4;
+}
+
+#layerFour {
+  background-image: url(./day10_challenge/images/layer_4.png);
+  z-index: 6;
+}
+
+#layerFive {
+  background-image: url(./day10_challenge/images/layer_5.png);
+  z-index: 8;
+}
+
+#layerSix {
+  background-image: url(./day10_challenge/images/layer_6.png);
+  z-index: 10;
+}
